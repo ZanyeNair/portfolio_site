@@ -1,10 +1,38 @@
 *{
-  background-color: #252525;
-  color:#FDFDFF;
+  background-color: #ECE2D0;
+  color:#050505;
+  font-family: 'Courier New', monospace;
+  font-weight: 100px;
 }
 .header{
-  background-color: #333333;
-  color: #FDFDFF;
-  padding: 10px;
+
+  color: #050505;
+
+ 
+}
+#nav{
+  color:#050505;
+}
+.name{
+  text-align: left;
+}
+.Title{
   text-align: center;
+
+}
+#whoIAm{
+  background-color: #CEBEBE;
+}
+.me-auto{
+  text-align: right;
+}
+#slideshow{
+  text-align: center;
+}
+#projectimg{
+  width: 20px;
+  height: 20px;
+}
+#nav{
+  color:#050505;
 }

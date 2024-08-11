@@ -15,18 +15,19 @@ function Header() {
                         Zayne Nair Portfolio
                     </h1>
                 </Col>
-                <Col md={{span:2, offset:4}}>
+                <Col md={{span:2, offset:6}}>
                     <Navbar bg="dark" data-bs-theme="dark">
                         <Container>
                         
-                        <Nav 
-                            className="me-auto"
+                        <Nav
+                            className="me-auto my-2 my-lg-0"
                             style={{ maxHeight: '100px' }}
                             navbarScroll
+                            id = "nav"
                         >
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/projects">Projects</Nav.Link>
+                            <Nav.Link href="/resume">Resume</Nav.Link>
                         </Nav>
                         </Container>
                     </Navbar>
