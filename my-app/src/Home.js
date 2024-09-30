@@ -22,7 +22,7 @@ function Home() {
         <Container id="whoIAm">
             <Row>
                 <Col>
-                    <Image src="pfp.jpg" thumbnail />
+                    <Image src="/images/pfp.JPG" thumbnail />
                 </Col>
                 <Col>
                     <h1>Who Am I</h1>
@@ -38,7 +38,7 @@ function Home() {
                 <Container>
                     <Row>
                         <Col>
-                            <Image src="pfp.jpg" thumbnail />
+                            <Image src="/images/pfp.JPG" thumbnail />
                         </Col>
                         <Col>
                         <h3>First slide label</h3>
@@ -54,7 +54,7 @@ function Home() {
                 <Container>
                     <Row>
                         <Col>
-                            <Image src="pfp.jpg" thumbnail />
+                            <Image src="/images/pfp.JPG" thumbnail />
                         </Col>
                         <Col>
                         <h3>Second slide label</h3>
@@ -72,14 +72,14 @@ function Home() {
             <Container>
                     <Row>
                         <Col>
-                            <Image src="pfp.jpg" thumbnail />
+                            <Image src="/images/pfp.JPG" thumbnail />
                         </Col>
                         <Col>
                         <h3>Third slide label</h3>
                          <p>
                              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                           </p>
-                          <Button onClick= {goToProjects} variant="outline-primary">Primary</Button>{' '}
+                          <Button onClick= {goToProjects} variant="outline-primary">Projects</Button>{' '}
                         </Col>
 
                     </Row>
